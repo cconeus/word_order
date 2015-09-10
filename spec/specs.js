@@ -1,5 +1,5 @@
-describe('romanNumeral', function() {
-  it('Will convert the number 1 to Roman numeral I', function() {
-    expect(romanNumeral(1)).to.eql("I");
+describe('wordOrder', function() {
+  it('Will count number of occurances of a given word in a given string', function() {
+    expect(wordOrder("cat")).to.eql(1);
   });
 });
